@@ -1,4 +1,4 @@
-# DiscordClicker
+# Discord Clicker
 this is kinda cursed ngl, but buy upgrades and grow your followers.
 
 lol there is only a discord logo, dont expect anything
