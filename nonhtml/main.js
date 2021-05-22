@@ -44,9 +44,11 @@ function shop(shopid) {
     if(costs[shopid] > users) {
         document.getElementById('shop' + shopid + 'cost').innerHTML = 'Not Enough Members!'
         document.getElementById('shop' + shopid + 'cost').style.color = 'red'
+        document.getElementById('shop' + shopid).style.backgroundColor = '#ffd5ad'
         setTimeout(function(){
             document.getElementById('shop' + shopid + 'cost').innerHTML = 'Cost: ' + costs[shopid] +' members'
             document.getElementById('shop' + shopid + 'cost').style.color = 'black'
+            document.getElementById('shop' + shopid).style.backgroundColor = 'azure'
         }, 1500)
         return;
     }
@@ -56,6 +58,10 @@ function shop(shopid) {
     document.getElementById('shop' + shopid + 'cost').innerHTML = 'Cost: ' + costs[shopid] +' members'
     document.getElementById('userspersec').innerHTML = 'Members Per Second: ' + ups
     document.getElementById('usercount').innerHTML = 'Members: ' + users
+    document.getElementById('shop' + shopid).style.backgroundColor = '#15ff00'
+    setTimeout(function(){
+        document.getElementById('shop' + shopid).style.backgroundColor = 'azure'
+    }, 1500)
     var img = document.createElement('img');
     img.src = 'images/redavatar.png'
     img.style = 'width: 75px; height: 75px; position: fixed; top: ' + Math.floor(Math.random() * 300) + '; left: 0; transition: 1s; border-radius: 100%;'
