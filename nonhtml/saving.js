@@ -1,1 +1,1 @@
-console.log('Same as a cheated save code...')
+console.log('Same as a cheated save code...');
