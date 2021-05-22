@@ -2,3 +2,30 @@ h1 {
     font-family: 'Oswald', sans-serif;
     text-align: center;
 }
+.shop {
+    cursor: pointer;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    min-height: 100px;
+    width: calc(100%-10px);
+    background-color: azure;
+    border-width: 5px;
+    border-color: black;
+    border-style: dotted;
+    border-radius: 20px;
+}
+.shop h3 {
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 110px;
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.shop p {
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 110px;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
