@@ -20,7 +20,7 @@ setInterval(function(){
             img.remove()
         }, 1020)
     }
-    document.getElementById('usercount').innerHTML = 'Members: ' + users
+    document.getElementById('usercount').innerHTML = 'Members: ' + Math.round(users)
     document.getElementById('userspersec').innerHTML = 'Members Per Second: ' + ups
 }, 1000)
 
