@@ -6,17 +6,20 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Reggae+One:wght@300&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div style="width: 300px; height: 300px; background-image: url(images/discordlogo.png); background-size: 100%; background-repeat: no-repeat; cursor: url('images/newuserclick.png'), auto; display: block; margin: 0 auto;" onclick='runclick()'></div>
+        <div style="background-image: url(images/discordlogo.png); background-size: 100%; background-repeat: no-repeat; cursor: url('images/newuserclick.png'), auto; display: block; margin: 0 auto;" onclick='runclick()' id='click'></div>
         <h1 id='usercount'>Press above to start earning members!</h1>
         <h1 id='userspersec'>Shop below!</h1>
         <div class='shop' style='background-image: url("images/groupchat.png");' onclick='shop(0)' id='shop0'>
+            <h2 id='shop0count'>0</h2>
             <h3>Group Chat</h3>
             <p>Become the ever so annoying group advertiser, in extange for a member every second.</p>
             <p id='shop0cost'>Cost: 15 members</p>
         </div>
         <div class='shop' style='background-image: url("images/megaphone.png");' onclick='shop(1)' id='shop1'>
+            <h2 id='shop1count'>0</h2>
             <h3>The #self-premote channel</h3>
             <p>Wow! Turns out people read it. Gives you 5 members every 2 seconds.</p>
             <p id='shop1cost'>Cost: 50 members</p>
